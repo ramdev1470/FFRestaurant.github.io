@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url(images/backimg.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .menu-section {
+            width: calc(50% - 20px);
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: rgb(131, 90, 61);
+            padding: 15px;
+            text-align: center;
+            color: black;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+        }
+        .menu-section :hover{
+            background-color:wheat;
+        }
+
+        .menu-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+        }
+
+        .item-details {
+            flex: 1;
+            text-align: left;
+            margin-left: 10px;
+        }
+
+        .item-name {
+            font-weight: bold;
+        }
+
+        .item-price {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="hiring.html">Hiring</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h2>Our Menu</h2>
+    <section id="menu">
+        
+        
+        <div class="menu-section">
+            <h3>Burgers</h3>
+            <div class="menu-item">
+                <img src="images/Cheeseburger.jpg" alt="Cheese Burger">
+                <div class="item-details">
+                    <span class="item-name">Cheese Burger</span>
+                    <span class="item-price">$5.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/veggieburger.jpg" alt="Veggie Burger">
+                <div class="item-details">
+                    <span class="item-name">Veggie Burger</span>
+                    <span class="item-price">$4.99</span>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div class="menu-section">
+            <h3>Pizzas</h3>
+            <div class="menu-item">
+                <img src="images/margherita.jpg" alt="Margherita">
+                <div class="item-details">
+                    <span class="item-name">Margherita</span>
+                    <span class="item-price">$8.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/pepperoni.jpg" alt="Pepperoni">
+                <div class="item-details">
+                    <span class="item-name">Pepperoni</span>
+                    <span class="item-price">$9.99</span>
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div class="menu-section">
+            <h3>Drinks</h3>
+            <div class="menu-item">
+                <img src="images/cola.jpg" alt="Cola">
+                <div class="item-details">
+                    <span class="item-name">Cola</span>
+                    <span class="item-price">$1.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/orangejuice.jpg" alt="Orange Juice">
+                <div class="item-details">
+                    <span class="item-name">Orange Juice</span>
+                    <span class="item-price">$2.49</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h3>Fried Rice</h3>
+            <div class="menu-item">
+                <img src="images/chickenfriedrice.webp" alt="Chicken Fried Rice">
+                <div class="item-details">
+                    <span class="item-name">Chicken Fried Rice</span>
+                    <span class="item-price">$6.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/vegfriedrice.jpg" alt="Veg Fried Rice">
+                <div class="item-details">
+                    <span class="item-name">Veg Fried Rice</span>
+                    <span class="item-price">$5.99</span>
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div class="menu-section">
+            <h3>Noodles</h3>
+            <div class="menu-item">
+                <img src="images/vegnoodles.jpg" alt="Veg Noodles">
+                <div class="item-details">
+                    <span class="item-name">Veg Noodles</span>
+                    <span class="item-price">$4.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/img6.webp" alt="Chicken Noodles">
+                <div class="item-details">
+                    <span class="item-name">Chicken Noodles</span>
+                    <span class="item-price">$6.49</span>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+</body>
+</html>
